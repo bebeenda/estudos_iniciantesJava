@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Aniversário de Casamento</title>
+    <style>
+        body {
+            font-family: "GEORGIA", sans-serif;
+            background-color: #ffbbdb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .cartao {
+            background-color: #fff;
+            width: 500px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .cabecalho {
+            font-size: 2em;
+            color: #E91E63;
+            margin-bottom: 20px;
+        }
+        .mensagem {
+            font-size: 1.2em;
+            color: #333;
+            line-height: 1.6;
+        }
+        .assinatura {
+            margin-top: 30px;
+            font-size: 1.1em;
+            color: #555;
+        }
+        .coracao {
+            font-size: 3em;
+            color: #ff3ade;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cartao">
+        <div class="cabecalho">
+            Feliz Aniversário de Casamento!
+        </div>
+        <div class="mensagem">
+            Love,
+            <br><br>
+            Feliz dia 16!!!
+            <br><br>
+           Love u more than yesterday
+        </div>
+        <div class="assinatura">
+             <br>
+            </div>
+          Bebenda
+          <details>
+            <summary>Clique aqui</summary>
+        <p class="coracao">❤️</p>
+    
+         </details>
+</body>
+</html>
